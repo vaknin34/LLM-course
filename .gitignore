@@ -1,0 +1,105 @@
+###############################################################################
+# 1. Core Python artefacts
+###############################################################################
+# Byte-code and interpreter state
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+
+# Compiled C extensions / cython
+*.so
+*.dylib
+*.pyd
+
+# Local settings & secrets
+*.env
+*.env.*
+.envrc
+.venv/
+venv/
+env/
+
+###############################################################################
+# 2. Packaging & build outputs
+###############################################################################
+# Setuptools / wheel / PEP-517
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller & cx_Freeze
+*.manifest
+*.spec
+*.exe
+*.dll
+
+###############################################################################
+# 3. Tool-specific caches
+###############################################################################
+# Test runners
+.pytest_cache/
+.nox/
+
+# Linters & static analysis
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Coverage & profiling
+.coverage
+coverage.xml
+htmlcov/
+.prof/
+
+###############################################################################
+# 4. Documentation artefacts
+###############################################################################
+# Sphinx & MkDocs
+docs/_build/
+site/
+
+###############################################################################
+# 5. Editors & IDEs
+###############################################################################
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Vim / Emacs / Sublime
+*.swp
+*~
+.project
+.settings/
+*.sublime-*
+
+###############################################################################
+# 6. Jupyter & data science
+###############################################################################
+.ipynb_checkpoints/
+*.ipynb
+# Large data or model artefacts
+data/
+*.h5
+*.hdf5
+*.model
+*.pickle
+*.joblib
+*.parquet
+
+###############################################################################
+# 7. Operating-system cruft
+###############################################################################
+.DS_Store
+Thumbs.db
+*.orig
+
+###############################################################################
+# 8. CI / CD generated files
+###############################################################################
+# Coverage, tox, Poetry and others may drop artefacts here
+.tox/
+*.log
