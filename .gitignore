@@ -80,7 +80,6 @@ site/
 # 6. Jupyter & data science
 ###############################################################################
 .ipynb_checkpoints/
-*.ipynb
 # Large data or model artefacts
 data/
 *.h5
@@ -89,6 +88,8 @@ data/
 *.pickle
 *.joblib
 *.parquet
+**/*bert*
+**/*trainer*
 
 ###############################################################################
 # 7. Operating-system cruft
